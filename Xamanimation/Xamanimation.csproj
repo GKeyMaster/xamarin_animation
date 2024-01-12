@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<PackageId>Xamanimation</PackageId>
+		<Version>1.3.0</Version>
+		<Authors>Javier Suárez Ruiz</Authors>
+		<Description>Animations library for Xamarin Forms</Description>
+		<PackageProjectUrl>https://github.com/jsuarezruiz/Xamanimation</PackageProjectUrl>
+		<PackageLicenseUrl>https://github.com/jsuarezruiz/Xamanimation/blob/master/LICENSE</PackageLicenseUrl>
+		<PackageIconUrl>https://raw.githubusercontent.com/jsuarezruiz/Xamanimation/master/Media/Logo.64x64.png</PackageIconUrl>
+		<RepositoryUrl>https://github.com/jsuarezruiz/Xamanimation</RepositoryUrl>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageTags>community, xamarin, android, xamarin.forms, ios, uwp, animations, transitions</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Xamarin.Forms" Version="4.1.0.581479" />
+	</ItemGroup>
+</Project>

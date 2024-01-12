@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+   <metadata minClientVersion="2.8.1">
+       <id>Xamanimation</id>
+       <version>1.3</version>
+       <title>Animations library for Xamarin Forms</title>
+       <authors>Javier Suárez Ruiz</authors>
+       <owners>Javier Suárez Ruiz</owners>
+       <projectUrl>https://github.com/jsuarezruiz/Xamanimation</projectUrl>
+       <licenseUrl>https://github.com/jsuarezruiz/Xamanimation/blob/master/LICENSE</licenseUrl>
+       <iconUrl>https://github.com/jsuarezruiz/Xamanimation/blob/master/Media/Logo.64x64.png</iconUrl>
+       <requireLicenseAcceptance>false</requireLicenseAcceptance>
+       <description>
+         Animations library for Xamarin Forms
+       </description>
+       <summary>Animations for Xamarin.Forms for iOS, Android, Linux and Windows</summary>
+       <tags>community, xamarin, pcl, android, xamarin.forms, ios, uwp, animations, transitions</tags>
+       <dependencies>
+         <dependency id="Xamarin.Forms" version="3.1.0.697729" />
+       </dependencies>
+     <releaseNotes>
+     </releaseNotes>
+   </metadata>
+   <files>
+      <!--Core-->
+     <file src="Xamanimation\bin\Release\netstandard2.0\Xamanimation.dll" target="lib\netstandard2.0" />
+     <file src="Xamanimation\bin\Release\netstandard2.0\Xamanimation.pdb" target="lib\netstandard2.0" />	    
+   </files>
+</package>
